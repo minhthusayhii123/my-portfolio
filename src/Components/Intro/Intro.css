@@ -1,0 +1,117 @@
+.intro {
+  margin-top: 81.2px;
+  align-items: center;
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 8rem;
+}
+.intro-content {
+  margin-top: 8rem;
+  align-items: center;
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  position: relative;
+}
+.i-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+  position: relative;
+}
+.i-left h1 {
+  color: var(--yellow);
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 1rem 0;
+  font-weight: 600;
+}
+.i-left img {
+  height: 3rem;
+  position: absolute;
+  right: -3.8rem;
+  top: 0.7rem;
+  width: 3rem;
+}
+.i-left p {
+  color: var(--white);
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+.button-contact {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.button-contact button {
+  padding: 0.5rem 0.6rem;
+  width: 8rem;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.hire-me {
+  background: linear-gradient(90deg, #ffde59, #ffa500);
+  color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.hire-me:hover {
+  background: linear-gradient(90deg, #ffa500, #ffde59);
+}
+.cv-me {
+  background: transparent;
+  color: #ffde59;
+  border: 3px solid #ffde59 !important;
+}
+.cv-me:hover {
+  border: 3px solid #ffa500 !important;
+  color: #ffa500;
+}
+.i-left span {
+  display: flex;
+  gap: 1.3rem;
+}
+.icon-intro {
+  color: var(--yellow);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.icon-intro:hover {
+  color: #ffa500;
+}
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  25% {
+    border-radius: 70% 30% 50% 50% / 30% 70% 30% 70%;
+  }
+  50% {
+    border-radius: 50% 50% 60% 40% / 50% 50% 40% 60%;
+  }
+  75% {
+    border-radius: 60% 40% 30% 70% / 70% 30% 70% 30%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+.i-right {
+  background-image: url("./../../assets/images/440430084_1606005613274928_327714046837160846_n.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid var(--yellow);
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  height: 16rem;
+  position: relative;
+  transition: all 1s ease-in-out;
+  width: 16rem;
+  animation: morph 8s ease-in-out infinite;
+}

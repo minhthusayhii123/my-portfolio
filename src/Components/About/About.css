@@ -1,0 +1,43 @@
+.about {
+  margin-bottom: 8rem;
+}
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12rem;
+  gap: 1rem;
+}
+.about-img img {
+  height: 12rem;
+}
+.about-text {
+  border-radius: 50px;
+  padding: 70px 20px 50px 20px;;
+  margin-left: 20px;
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2);
+}
+.about-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--yellow);
+  margin-bottom: 1rem;
+}
+.about-text ul {
+  margin-left: 2rem;
+}
+.about-text li {
+  color: var(--white);
+  line-height: 1.4;
+  margin: 1rem 0;
+  font-weight: 300;
+}
+.read-more {
+  color: var(--yellow);
+  font-weight: 600;
+  font-size: 18px;
+}
+.read-more:hover {
+  cursor: pointer;
+}

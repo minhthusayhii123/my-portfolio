@@ -1,0 +1,36 @@
+.n-wrapper {
+  align-items: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.09);
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  left: 0;
+  padding: 25px 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+  background: #1e0235;
+}
+.n-left {
+  font-family: "Pacifico", cursive;
+  color: var(--yellow);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.n-right ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+.n-right ul a {
+  text-decoration: none;
+  color: var(--white);
+  transition: all 0.23s;
+  font-weight: 600;
+}
+.n-right ul li:hover a {
+  color: var(--yellow);
+}
