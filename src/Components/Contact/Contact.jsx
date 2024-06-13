@@ -3,13 +3,20 @@ import emailjs from "@emailjs/browser";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope";
+import { toast } from "react-toastify";
 import "./Contact.css";
 function Contact() {
+  function showSuccessToast() {
+    toast.success("Gửi email Thành công!");
+  }
+  function showErrorToast() {
+    toast.error("Error");
+  }
+
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm("service_vjqhlrq", "template_q0lhgoj", form.current, {
         publicKey: "3aYSK4ZaTUcHAGmJt",
@@ -17,9 +24,12 @@ function Contact() {
       .then(
         () => {
           console.log("SUCCESS!");
+          form.current.reset();
+          showSuccessToast();
         },
         (error) => {
           console.log("FAILED...", error.text);
+          showErrorToast();
         }
       );
   };
@@ -59,9 +69,6 @@ function Contact() {
               name="message"
               placeholder="Typing your message here..."
             ></textarea>
-            {/* <input type="submit" value="Send" className="button" />
-            <span>{done && "Thanks for contact with me"}</span> */}
-
             <button type="submit" value="Send">
               Send message
             </button>
