@@ -11,11 +11,13 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Intro />
-      <About />
-      <Skill />
-      <Project />
-      <Contact />
+      <div className="main">
+        <Intro className="offset" />
+        <About className="offset" />
+        <Skill className="offset" />
+        <Project className="offset" />
+        <Contact className="offset" />
+      </div>
       <Footer />
     </div>
   );

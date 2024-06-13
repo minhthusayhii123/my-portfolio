@@ -1,11 +1,11 @@
 .intro {
-  margin-top: 81.2px;
   align-items: center;
   display: flex;
   gap: 10rem;
   justify-content: center;
   position: relative;
   margin-bottom: 8rem;
+  padding-top: 95.6px;
 }
 .intro-content {
   margin-top: 8rem;

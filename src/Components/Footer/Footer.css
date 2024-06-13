@@ -26,6 +26,9 @@
   font-size: 0.9rem;
   font-weight: 600;
 }
+.link-contact a:hover  {
+  color: var(--yellow);
+}
 .footer-icons {
   display: flex;
   justify-content: center;
@@ -36,8 +39,15 @@
   color: var(--white);
   font-size: 1.5rem;
 }
+.f-icon:hover {
+  color: var(--yellow);
+}
 .footer-email{
   font-size: 0.8rem;
   font-weight: 300;
   color: var(--white);
+}
+.footer-email:hover {
+  cursor: pointer;
+  color: var(--yellow);
 }

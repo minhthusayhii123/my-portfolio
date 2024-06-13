@@ -5,6 +5,7 @@
   flex-direction: column;
   padding: 20px 40px;
   margin-bottom: 8rem;
+  padding-top: 95.6px;
 }
 .contact h1 {
   font-size: 2rem;
@@ -72,4 +73,8 @@
   font-size: 0.9rem;
   font-weight: 600;
   align-self: flex-end;
+}
+.contact-right button:hover {
+  background: linear-gradient(90deg, #ffde59, #ffa500);
+  color: black;
 }

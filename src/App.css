@@ -1,5 +1,5 @@
 :root {
-  --yellow: #D9C167;
+  --yellow: #d9c167;
   --orange: #fca61f;
   --blackblue: #242d49;
   --gray: #788097;
@@ -12,4 +12,7 @@ html {
 body {
   background-color: #1e0235;
   position: relative;
+}
+.offset {
+  margin-top: 95.6px;
 }
