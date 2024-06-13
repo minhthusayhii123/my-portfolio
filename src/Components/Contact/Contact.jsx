@@ -6,13 +6,6 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope";
 import { toast } from "react-toastify";
 import "./Contact.css";
 function Contact() {
-  function showSuccessToast() {
-    toast.success("Gửi email Thành công!");
-  }
-  function showErrorToast() {
-    toast.error("Error");
-  }
-
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -25,11 +18,11 @@ function Contact() {
         () => {
           console.log("SUCCESS!");
           form.current.reset();
-          showSuccessToast();
+          toast.success("SUCCESS!!");
         },
         (error) => {
           console.log("FAILED...", error.text);
-          showErrorToast();
+          toast.error("Error");
         }
       );
   };
