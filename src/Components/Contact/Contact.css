@@ -83,3 +83,29 @@
   background: linear-gradient(90deg, #ffde59, #ffa500);
   color: black;
 }
+@media (max-width: 768px) {
+  .contact {
+    max-width: 768px;
+  }
+  .contact h1 {
+    font-size: 1.2rem;
+  }
+  .contact-content {
+    gap: 0rem;
+  }
+  .contact-left {
+    max-width: 50%;
+    gap: 1rem;
+    padding: 0;
+  }
+  .contact-item p {
+    font-size: 0.8rem;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.7rem;
+  }
+  .contact-right button {
+    padding: 8px 16px;
+  }
+}

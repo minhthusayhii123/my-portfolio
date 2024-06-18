@@ -5,7 +5,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram";
-import CV from "./CV_PhamTranMinhThu_FrontEndDeveloper.pdf";
+import CV from "./CV__FrontEndDeveloper_PhamTranMinhThu.pdf";
 import hi from "./../../assets/images/hi.png";
 
 import "./Intro.css";

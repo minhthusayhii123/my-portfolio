@@ -42,3 +42,20 @@
 .read-more:hover {
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .about {
+    max-width: 768px;
+  }
+  .about-content {
+    padding: 0 3rem;
+  }
+  .about-img img {
+    height: 8rem;
+  }
+  .about-text h2 {
+    font-size: 1.2rem;
+  }
+  .about-text li {
+    font-size: 0.8rem;
+  }
+}

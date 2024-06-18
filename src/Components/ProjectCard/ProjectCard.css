@@ -60,3 +60,17 @@
 .project-content a:hover {
   background-color: var(--orange);
 }
+@media (max-width: 768px) {
+  .project-card {
+    max-width: 300px;
+  }
+  .project-content h2 {
+    font-size: 1rem;
+  }
+  .project-description {
+    font-size: 0.7rem;
+  }
+  .project-content a {
+    padding: 8px 16px;
+  }
+}

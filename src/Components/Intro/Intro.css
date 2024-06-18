@@ -115,3 +115,27 @@
   width: 16rem;
   animation: morph 8s ease-in-out infinite;
 }
+
+@media (max-width: 768px) {
+  .intro {
+    max-width: 768px;
+  }
+  .intro-content {
+    max-width: 768px;
+    padding: 0 1rem;
+    gap: 5rem;
+  }
+  .i-left h1 {
+    font-size: 2rem;
+  }
+  .i-left img {
+    right: 4.2rem;
+    top: 1.7rem;
+  }
+  .i-left p {
+    font-size: 0.7rem;
+  }
+  .button-contact button {
+    padding: 0.4rem 0.5rem;
+  }
+}

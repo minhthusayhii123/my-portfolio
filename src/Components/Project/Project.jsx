@@ -10,7 +10,7 @@ function Project() {
       title: "Beauty-ui",
       description: "A website for selling cosmetics for women.",
       image: Beauty,
-      view: "github.com/minhthusayhii123/beauty-ui",
+      view: "https://cosmetic-minhthu.vercel.app/",
     },
     {
       title: "Shopee",
@@ -22,7 +22,7 @@ function Project() {
       title: "Landing Page",
       description: "Lorem Ipsum is simply a blog post about a product. ",
       image: Landing,
-      view: "https://www.facebook.com/minhthuu1203/",
+      view: "https://landing-page-mthu.vercel.app/",
     },
   ];
   return (
