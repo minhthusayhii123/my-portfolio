@@ -61,7 +61,7 @@
     color: #1e0235;
   }
   .n-right ul li a:active {
-    color: #1e0235 ;
+    color: #1e0235;
   }
 
   .n-right ul.open {
@@ -86,5 +86,14 @@
   .n-right ul li a {
     width: 100%;
     padding: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .n-wrapper {
+    max-width: 480px;
+  }
+  .n-right {
+    display: none;
   }
 }

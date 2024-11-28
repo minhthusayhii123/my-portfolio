@@ -5,7 +5,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram";
-import CV from "./CV__FrontEndDeveloper_PhamTranMinhThu.pdf";
+import CV from "./CV_InternTester_PhamTranMinhThu.pdf";
 import hi from "./../../assets/images/hi.png";
 
 import "./Intro.css";
@@ -15,9 +15,9 @@ function Intro() {
       <div className="intro-content">
         {/* left-name */}
         <div className="i-left">
-          <h1>Front-End Developer</h1>
+          <h1>Tester Intern</h1>
           <img src={hi} alt="" />
-          <p>Hi! I'm Thư. A passionate Front-end Developer. 📍</p>
+          <p>Hi! I'm Thư. I am a Tester. 📍</p>
           <div className="button-contact">
             <button className="hire-me">Hire me</button>
             <a href={CV} download>
