@@ -38,7 +38,7 @@ function Contact() {
     },
     {
       icon: faEnvelope,
-      description: "minhthuu1203@gmail.com",
+      description: "minhthuforwork@gmail.com",
     },
   ];
 
@@ -48,7 +48,7 @@ function Contact() {
       <div className="contact-content">
         <div className="contact-left">
           {contacts.map((contact, index) => (
-            <div className="contact-item" key={index}>
+            <div className="contact-item" key={"contact-"+index}>
               <FontAwesomeIcon className="icon-contact" icon={contact.icon} />
               <p>{contact.description}</p>
             </div>

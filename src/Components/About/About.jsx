@@ -17,7 +17,7 @@ function About() {
             </li>
             <li>
               I am eager to learn, highly responsible, and ready to adapt to new
-              environments...
+              environments...{" "}
               <span className="read-more">Read more</span>
             </li>
           </ul>
