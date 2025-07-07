@@ -5,7 +5,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram";
-import CV from "./CV_InternTester_PhamTranMinhThu.pdf";
+import CV from "./PhamTranMinhThu_Software_Tester_CV.pdf";
 import hi from "./../../assets/images/hi.png";
 
 import "./Intro.css";
@@ -15,7 +15,7 @@ function Intro() {
       <div className="intro-content">
         {/* left-name */}
         <div className="i-left">
-          <h1>Tester Intern</h1>
+          <h1>Software Tester</h1>
           <img src={hi} alt="" />
           <p>Hi! I'm Thư. I am a Tester. 📍</p>
           <div className="button-contact">
@@ -34,7 +34,7 @@ function Intro() {
             <a href="https://www.instagram.com/">
               <FontAwesomeIcon icon={faInstagram} className="icon-intro" />
             </a>
-            <a href="https://www.facebook.com/minhthuu1203/">
+            <a href="https://www.facebook.com/minhthuforwork/">
               <FontAwesomeIcon icon={faFacebook} className="icon-intro" />
             </a>
           </span>

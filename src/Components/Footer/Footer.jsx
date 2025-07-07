@@ -11,10 +11,10 @@ function Footer() {
     <footer className="footer">
       <h1>Thư</h1>
       <div className="link-contact">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
+        <a href="#intro">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </div>
       <div className="footer-icons">
         <a href="https://github.com/minhthusayhii123?tab=overview&from=2024-04-01&to=2024-04-30">
@@ -26,11 +26,11 @@ function Footer() {
         <a href="https://www.instagram.com/">
           <FontAwesomeIcon icon={faInstagram} className="f-icon" />
         </a>
-        <a href="https://www.facebook.com/minhthuu1203/">
+        <a href="https://www.facebook.com/minhthuforwork/">
           <FontAwesomeIcon icon={faFacebook} className="f-icon" />
         </a>
       </div>
-      <p className="footer-email">minhthuu1203@gmail.com</p>
+      <p className="footer-email">minhthuforwork@gmail.com</p>
     </footer>
   );
 }
